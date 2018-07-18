@@ -1,3 +1,3 @@
 # practise
 
-study with python, and practise using python
+study with python, and practise using python...
