@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 """
-This is my practise_004: function
+practise_function
 """
 
 
@@ -15,6 +15,7 @@ def power(x, n=2):
 
 
 power(2)
+power(2, 5)
 
 
 def calc(*number):
