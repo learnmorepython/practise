@@ -14,6 +14,7 @@ print "d['Bob']:", d["Bob"]
 print "get Jack:", d.get("Jack", 60)
 d.pop("Bob")
 print "after pop d is:", d
+
 # 迭代key
 for key in d:
     print "this is iterkey", key

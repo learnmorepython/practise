@@ -27,6 +27,7 @@ classmates.extend(classmates_new)
 print "after extend classmates is:", classmates
 print "classmates[2][0]:", classmates[2][0]
 print "classmates[:]", classmates[:], ",classmates[2:4]", classmates[2:4]
+
 # 每隔2个取一个
 print "classmates[::2]", classmates[::2]
 
