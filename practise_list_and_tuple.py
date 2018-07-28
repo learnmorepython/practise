@@ -27,6 +27,19 @@ classmates.extend(classmates_new)
 print "after extend classmates is:", classmates
 print "classmates[2][0]:", classmates[2][0]
 print "classmates[:]", classmates[:], ",classmates[2:4]", classmates[2:4]
+# 每隔2个取一个
+print "classmates[::2]", classmates[::2]
+
+# 迭代list
+for l in classmates:
+    print l
+
+# 迭代list的索引和元素
+for i, value in enumerate(["A", "B", "C"]):
+    print i, value
+
+for x, y in [(3, 2), (4, 1), (5, 4)]:
+    print x, y
 
 
 # tuple：初始化后不能修改
