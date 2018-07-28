@@ -14,6 +14,17 @@ print "d['Bob']:", d["Bob"]
 print "get Jack:", d.get("Jack", 60)
 d.pop("Bob")
 print "after pop d is:", d
+# 迭代key
+for key in d:
+    print "this is iterkey", key
+
+# 迭代value
+for value in d.itervalues():
+    print "this is itervalues:", value
+
+# 迭代key和value
+for k, v in d.iteritems():
+    print "this is iterkey", k, "and itervalue:", v
 
 
 # set：无序和无重复元素的集合
